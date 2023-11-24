@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600&family=Poppins:ital,wght@0,400;0,800;1,700&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width:100vw;
+    height: 100vh;
+    background-color:#ecf2f8;
+    font-family:"Barlow Semi Condensed",sans-serif;
+    font-size: 16px;
+}
+
+main{
+    display: grid;
+    grid-template-columns:repeat(4,262px);
+    padding:32px 0;
+    gap:20px;
+    justify-content: center;
+}
+
+.article{
+    padding:32px;
+    border-radius: 10px;
+}
+
+#article_1{
+    grid-column:1/ span 2;
+    background-image: url("https://kabir-sagiii.github.io/CSS_Grid_learn-grid-the-easy-way/images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position:top right 10%;
+    background-color: #7541c8;
+    color: white;
+}
+
+.article_author_details{
+    display: flex;
+    gap: 20px;
+}
+
+.image{
+    width: 28px;
+    height:28px;
+    border-radius:50%;
+}
+
+.author_name{
+    font-size: 13px;
+}
+
+.author_verification{
+    font-size: 11px;
+    opacity: 0.5;
+}
+
+.first_para{
+    margin-top:20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.second_para{
+    margin-top: 13px;
+    font-size:13px;
+    opacity:0.7;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+#article_2{
+    background-color: #48556a;
+    color: white;
+}
+
+#article_3{
+    grid-column: 4;
+    grid-row: 1/span 2;
+    background-color: white;
+}
+
+#article_4{
+    background-color: white;
+}
+
+#article_5{
+    grid-column: 2 / span 2;
+    background-color: #19212e;
+    color: white;
+}
+
+.border{
+    border: 2px solid #a775f1;
+}
